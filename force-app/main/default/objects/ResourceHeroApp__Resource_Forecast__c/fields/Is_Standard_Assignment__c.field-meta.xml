@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Standard_Assignment__c</fullName>
+    <description>Mirrors the parent Resource Assignment's Is Standard flag so record-triggered flows can filter on it in entry criteria. True for regular project assignments; false for PTO, holiday, capacity and snapshot rows.</description>
+    <externalId>false</externalId>
+    <formula>ResourceHeroApp__Resource_Assignment__r.ResourceHeroApp__Is_Standard__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is Standard Assignment</label>
+    <type>Checkbox</type>
+</CustomField>

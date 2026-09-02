@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Bypasses the RH Lock Time Entries flows. Grant to admins / PMs who need to correct locked time entries.</description>
+    <isLicensed>false</isLicensed>
+    <label>Edit Locked Time Entries</label>
+</CustomPermission>
