@@ -53,8 +53,8 @@ Blocked users see a message like:
 **With the Salesforce CLI** (recommended):
 
 ```bash
-git clone https://github.com/Resource-Hero/rh-time-entry-lock.git
-cd rh-time-entry-lock
+git clone https://github.com/Resource-Hero/rh-solution-time-entry-lock.git
+cd rh-solution-time-entry-lock
 sf project deploy start --source-dir force-app --target-org <your-org-alias>
 ```
 
